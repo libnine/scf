@@ -33,7 +33,7 @@ with open('options.json', 'r') as o:
     set_name = o['set_name']
 
 # for n in range(1, 11):
-r = requests.post('http://ws.vintagecardprices.com', data={"queryXml": xml_req(set_name='Red Heart Dog Food', sport_type=1, player_name='', card_number='1', year=1954, grader="psa", grade=7)}, auth=('wta', 'R2rGPrHL8'))
+r = requests.post('http://ws.vintagecardprices.com', data={"queryXml": xml_req(set_name='Red Heart Dog Food', sport_type=1, player_name='', card_number='1', year=1954, grader="psa", grade=7)}, auth=('', ''))
 
 response = ET.fromstring(r.text)
 

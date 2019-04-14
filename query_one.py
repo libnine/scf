@@ -30,7 +30,7 @@ if __name__ == '__main__':
         set_name = o['set_name']
     
     for n in range(1, 11):
-        r = requests.post('http://ws.vintagecardprices.com', data={"queryXml": xml_req(set_name=set_name, sport_type=sport_type, player_name="rose", card_number=20, year=1978, grader="psa", grade=n)}, auth=('wta', 'R2rGPrHL8'))
+        r = requests.post('http://ws.vintagecardprices.com', data={"queryXml": xml_req(set_name=set_name, sport_type=sport_type, player_name="rose", card_number=20, year=1978, grader="psa", grade=n)}, auth=('', ''))
 
         if r.status_code == 404:
             print('404 error.\n')

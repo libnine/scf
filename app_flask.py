@@ -6,7 +6,7 @@ from flask_funcs import *
 
 
 # flask init
-API_KEY = '9c30ee7f530600c7a2c37f41f202e966'
+API_KEY = ''
 app = Flask(__name__, static_folder='./vue/dist/static', template_folder='./vue/dist')
 app.config.from_object(__name__)
 CORS(app)

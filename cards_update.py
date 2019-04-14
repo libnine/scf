@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
     for n in range(len(sel_query)):
         for l in range(1, 11):
-            r = requests.post('http://ws.vintagecardprices.com', data={"queryXml": xml_req(set_name=sel_query[n][0], sport_type=1, player_name='', card_number=sel_query[n][1], year=sel_query[n][2], grader="psa", grade=l)}, auth=('wta', 'R2rGPrHL8'))
+            r = requests.post('http://ws.vintagecardprices.com', data={"queryXml": xml_req(set_name=sel_query[n][0], sport_type=1, player_name='', card_number=sel_query[n][1], year=sel_query[n][2], grader="psa", grade=l)}, auth=('', ''))
 
             response = ET.fromstring(r.text)
 

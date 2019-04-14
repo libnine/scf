@@ -34,7 +34,7 @@ export default {
   data () {
     return {
       fadeOut: false,
-      path: 'http://18.220.123.41/sql',
+      path: '',
       resp_msg: null,
       set_name: null,
       sport_name: null,
