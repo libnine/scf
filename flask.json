@@ -1,0 +1,10 @@
+{
+    "driver": "ODBC+Driver+17+for+SQL+Server",
+    "server": "sportscardsforever.database.windows.net",
+    "database": "FOREAL_Online",
+    "user": "ben",
+    "pwd": "baseball1!",
+    "encrypt": "yes",
+    "trustservercertificate": "no",
+    "connectiontimeout": 30
+}

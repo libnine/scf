@@ -1,0 +1,9 @@
+{
+    "driver": "{ODBC Driver 17 for SQL Server};",
+    "server": "tcp:sportscardsforever.database.windows.net,1433;",
+    "database": "FOREAL_Online;Uid=ben@sportscardsforever;",
+    "pwd": "baseball1!;",
+    "encrypt": "yes;",
+    "trustservercertificate": "no;",
+    "connectiontimeout": 30
+}

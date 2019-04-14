@@ -1,0 +1,11 @@
+Flask_Cors==3.0.7
+Flask==0.12.4
+pyodbc==4.0.25
+Jinja2==2.10
+lxml==4.2.5
+Cython==0.29.5
+pandas==0.24.0
+pyOpenSSL==19.0.0
+pymysql==0.9.3
+SQLAlchemy==1.2.18
+gunicorn==19.9.0
