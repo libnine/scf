@@ -1,6 +1,5 @@
 # scf
 SCF Project
 
-Pull data with Python\n
-Serve web app with Flask, gunicorn, nginx, SQL Server backend\n
-Vue frontend
+# overview
+Pull data with Python, serve web app with Flask, Gunicorn, Nginx, SQL Server backend, Vue frontend
