@@ -1,4 +1,4 @@
-Flask_Cors==3.0.7
+Flask_Cors==3.0.9
 Flask==0.12.4
 pyodbc==4.0.25
 Jinja2==2.10
